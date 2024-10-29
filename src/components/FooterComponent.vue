@@ -33,20 +33,21 @@ const residencia = "La Paz, Mendoza, Argentina"
 </template>
 
 <style scoped>
-    footer{
-        width: 100%;
-        margin-top: 5rem;
-        border-top: 2px solid #525252;
-        border-right: 2px solid #525252;
-        border-left: 2px solid #525252;
-        color: #838282;
-        font-size: 1.1rem;
-        text-align: center;
-        padding: 2rem;
+footer{
+    width: 100%;
+    margin-top: 5rem;
+    border-top: 2px solid #525252;
+    border-right: 2px solid #525252;
+    border-left: 2px solid #525252;
+    color: #838282;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2rem;
 }
-    .container-lista{
+.container-lista{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 5rem;
     justify-content: center;
     margin: 1rem 0 0 0;
